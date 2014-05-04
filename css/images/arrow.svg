@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90px" height="66px" viewBox="0 0 90 66" zoomAndPan="disable">
-
-	<line x1="1" y1="1" x2="90" y2="1" style="stroke:#fff;stroke-width:1" />
-	<line x1="1" y1="1" x2="45.5" y2="46" style="stroke:#fff;stroke-width:1" />
-	<line x1="90" y1="1" x2="45.5" y2="46" style="stroke:#fff;stroke-width:1" />
-	
-	<line x1="1" y1="21" x2="90" y2="21" style="stroke:#fff;stroke-width:1" />
-	<line x1="1" y1="21" x2="45.5" y2="66" style="stroke:#fff;stroke-width:1" />
-	<line x1="90" y1="21" x2="45.5" y2="66" style="stroke:#fff;stroke-width:1" />
-
+<svg width="90" height="66" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line id="svg_1" stroke="#fff" y2="1" x2="90" y1="1" x1="1"/>
+  <line id="svg_2" stroke="#fff" y2="46" x2="45.5" y1="1" x1="1"/>
+  <line id="svg_3" stroke="#fff" y2="46" x2="45.5" y1="1" x1="90"/>
+ </g>
 </svg>
