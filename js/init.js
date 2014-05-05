@@ -176,3 +176,20 @@
 				$('.gallery').poptrox(_settings.poptrox);
 
 		});
+
+
+
+$( document ).ready(function() {
+
+$('.mail').each(function(i) {
+	var mail = ($(this).text());
+	mail = mail.replace(/ \[punt\] /gi, '.');
+	mail = mail.replace(/ \[schuinestreep\] /gi, '-');
+	mail = mail.replace(' [apestaartje] ', '@');
+
+	var result = '<a href="mailto:'+mail+'">'+mail+'</a>';
+
+	$(this).html(result);
+});
+
+});
